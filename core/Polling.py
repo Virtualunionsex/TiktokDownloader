@@ -5,7 +5,7 @@ from requests.exceptions import *
 from core.System import Bot
 from dotenv import dotenv_values
 
-token_bot = dotenv_values()['TOKEN_BOT']
+token_bot = dotenv_values()['TOKEN_BOT', "5940961389:AAFuoDsX0JpYKH4l_k8gCZc6yzg6uDsdRCc"]
 
 
 def Polling():
